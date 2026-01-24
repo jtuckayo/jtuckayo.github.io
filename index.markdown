@@ -1,6 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+Welcome! I'm **Julius Tuckayo**, a Data Manager specializing in Business Intelligence and Data Engineering.
+
+I transform raw data into strategic assets using Python, SQL, Power BI, Snowflake, and more.
+
+[Learn more about me](/about/)
