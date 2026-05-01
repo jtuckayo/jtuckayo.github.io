@@ -1,59 +1,61 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
 ---
 
-## Notable Projects
+<div class="prompt"><span class="cmd">cd ~/projects &amp;&amp; ls -la</span></div>
 
-### Nasfund AWS Cloud Instance
-**2023**
+<div class="ls">
+  <div class="row"><span class="perms">drwxr-xr-x</span><span class="size">5 items</span><span>./</span></div>
+  <div class="row"><span class="perms">drwxr-xr-x</span><span class="size">—</span><span>../</span></div>
+  <div class="row"><span class="perms">-rw-r--r--</span><span class="size">2023</span><span>aws-instance.md</span></div>
+  <div class="row"><span class="perms">-rw-r--r--</span><span class="size">2023</span><span>aws-data-gateway.md</span></div>
+  <div class="row"><span class="perms">-rw-r--r--</span><span class="size">2023</span><span>ivr-system.md</span></div>
+  <div class="row"><span class="perms">-rw-r--r--</span><span class="size">2023</span><span>bank-files.md</span></div>
+  <div class="row"><span class="perms">-rw-rw-r--</span><span class="size">ongoing</span><span>whatsapp-appointments.md</span></div>
+</div>
 
-Led the effort in standing up Nasfund's cloud instance on Amazon Web Services (AWS). This involved understanding Nasfund's needs, architecting the AWS environment, securing the cloud, and providing training and support.
+<div class="proj-grid">
 
-**Outcomes:** Increased agility, scalability, performance, and reliability while reducing costs and opening doors for innovation. This marked a cultural shift for Nasfund, solidifying acceptance of cloud as a transformative technology.
+  <div class="proj-card">
+    <div class="proj-meta">2023 · cloud · led</div>
+    <div class="proj-title">aws-instance</div>
+    <p>Architected Nasfund's first AWS environment from scratch — security, IAM, training, support. A cultural shift, not just a tech one.</p>
+    <p><em>↳ outcomes: agility ↑, scale ↑, cost ↓, and a green light for cloud-native work.</em></p>
+    <div class="tags">
+      <span class="tag">aws</span><span class="tag">architecture</span><span class="tag">security</span><span class="tag">leadership</span>
+    </div>
+  </div>
 
----
+  <div class="proj-card">
+    <div class="proj-meta">2023 · data eng</div>
+    <div class="proj-title">aws-data-gateway</div>
+    <p>Petabyte-scale data gateway. Daily dumps from the fund administrator land safely in the cloud — ranges from 2GB up to ~200GB.</p>
+    <div class="tags"><span class="tag">aws</span><span class="tag">etl</span><span class="tag">storage</span></div>
+  </div>
 
-### Nasfund AWS Data Gateway
-**2023**
+  <div class="proj-card">
+    <div class="proj-meta">2023 · platform</div>
+    <div class="proj-title">ivr-system</div>
+    <p>Members ring in, hear their balance and withdrawal status. Wrote the SQL that backs the voice prompts; coordinated the offshore build team.</p>
+    <div class="tags"><span class="tag">sql</span><span class="tag">data warehouse</span><span class="tag">telephony</span></div>
+  </div>
 
-Stood up Nasfund's Amazon Web Services data gateway instance - a petabyte-scale data gateway that acts as a secure bridge for pushing on-premise data to the cloud in a transparent and reliable way.
+  <div class="proj-card">
+    <div class="proj-meta">2023 · automation</div>
+    <div class="proj-title">bank-files</div>
+    <p>BSP changed their core banking output format and broke our reconciliation. Wrote a Python translator that bridges new → legacy so the fund admin pipeline keeps flowing.</p>
+    <div class="tags"><span class="tag">python</span><span class="tag">finance</span></div>
+  </div>
 
-**Challenge:** Nasfund receives large data dumps daily from its fund administrator, ranging from 2GB to approaching 200GB.
+  <div class="proj-card">
+    <div class="proj-meta">ongoing · digital</div>
+    <div class="proj-title">whatsapp-appointments</div>
+    <p>Branch ticketing, but over WhatsApp. Set up the Meta Business account, provisioned the line, and run the project with the dev team.</p>
+    <div class="tags"><span class="tag">meta</span><span class="tag">whatsapp</span><span class="tag">ops</span></div>
+  </div>
 
----
+</div>
 
-### Nasfund Interactive Voice Response (IVR) System
-**2023**
-
-Contributed to establishing a system allowing members to call in and check their current balance and withdrawal application status via voice prompts.
-
-**My contributions:**
-- Created SQL scripts enabling the IVR system to query Nasfund's production data warehouse
-- Coordinated with out-of-country support team to keep the project on schedule
-
----
-
-### Nasfund Bank Files Transformation
-**2023**
-
-After BSP's core banking system upgrade, Nasfund's banking files were no longer in the required format for deposit reconciliation.
-
-**Solution:** Developed a Python program that automatically converts bank files from the new format to the legacy format, allowing Nasfund's fund administration system to complete the deposit reconciliation process.
-
----
-
-### Nasfund WhatsApp Appointments
-**Ongoing**
-
-Expanding the functionality of branch ticketing machines to allow members to book appointments via WhatsApp.
-
-**My contributions:**
-- Set up Nasfund's Meta Business Account
-- Provisioned a dedicated mobile number for the WhatsApp Appointments app
-- Coordinated with development team on business process flows and technical iterations
-
----
-
-[Back to CV](/)
+<div class="prompt"><span class="cmd"></span></div><span class="cursor"></span>

@@ -1,26 +1,30 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-## About Me
+<div class="prompt"><span class="cmd">cat about.md</span></div>
 
-I'm a Data Professional based in Port Moresby, Papua New Guinea, currently serving as Manager Data and Digital at National Superannuation Fund Limited (Nasfund).
+I'm a data professional based in Port Moresby, currently Manager of Data &amp; Digital at Nasfund.
 
-With a background in Computer Science and over 5 years of experience in data management, business intelligence, and data engineering, I specialize in transforming raw data into strategic assets that drive organizational decision-making.
+Computer Science at PNG University of Technology in 2019, then five-plus years moving from production analytics into BI, into data engineering, and now into the strategy seat. The throughline is the same: turn raw data into decisions people actually trust.
 
-## What I Do
+## what I do
 
-- **Data Strategy** - Developing and executing long-term data strategies aligned with business objectives
-- **Data Engineering** - Building ETL pipelines, data warehouses, and cloud infrastructure
-- **Business Intelligence** - Creating dashboards and reports that surface actionable insights
-- **Team Leadership** - Mentoring graduates and managing cross-functional data initiatives
+<div class="tree">
+<span class="branch">├──</span> <span class="leaf">data strategy</span>     long-term direction aligned to business outcomes<br/>
+<span class="branch">├──</span> <span class="leaf">data engineering</span>  pipelines, warehouses, cloud plumbing<br/>
+<span class="branch">├──</span> <span class="leaf">bi</span>                dashboards and reports that surface decisions<br/>
+<span class="branch">└──</span> <span class="leaf">leadership</span>        mentoring grads, running cross-functional initiatives
+</div>
 
-## Connect
+## connect
 
-- **Email:** [juliustuckayo@gmail.com](mailto:juliustuckayo@gmail.com)
-- **LinkedIn:** [linkedin.com/in/jtuckayo](https://www.linkedin.com/in/jtuckayo/)
-- **GitHub:** [github.com/jtuckayo](https://github.com/jtuckayo)
+<div class="contact-row">
+  <a href="mailto:juliustuckayo@gmail.com"><i class="fas fa-envelope"></i> juliustuckayo@gmail.com</a>
+  <a href="https://www.linkedin.com/in/jtuckayo/"><i class="fab fa-linkedin"></i> linkedin</a>
+  <a href="https://github.com/jtuckayo"><i class="fab fa-github"></i> github</a>
+</div>
 
-[Back to CV](/) | [View Projects](/projects/)
+<div class="prompt"><span class="cmd"></span></div><span class="cursor"></span>
