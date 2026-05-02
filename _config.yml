@@ -1,5 +1,5 @@
 # Site settings
-title: julius@png:~
+title: julius@png:~$
 description: >-
   julius tuckayo · data professional · manager data and digital @ nasfund
 baseurl: ""
@@ -17,10 +17,6 @@ header_pages:
 theme: minima
 plugins:
   - jekyll-feed
-
-# Minima skin (we override most things in main.scss anyway)
-minima:
-  skin: dark
 
 exclude:
   - jtuckayo.github.io/

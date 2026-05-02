@@ -49,11 +49,6 @@ a:hover {
   color: var(--term-green) !important;
   font-weight: 700 !important;
 }
-.site-title::before {
-  content: "julius@png:~$ ";
-  color: var(--term-green-dim);
-  font-weight: 400;
-}
 .site-nav .page-link {
   color: var(--term-green) !important;
   margin-left: 16px;
@@ -96,6 +91,7 @@ h3::before {
   color: var(--term-green-dim);
   font-weight: 400;
 }
+.now-card h3::before { content: none; }
 
 /* page content */
 .page-content {
